@@ -64,5 +64,4 @@ public class Recycler_View_Adapter extends RecyclerView.Adapter<View_Holder> {
         final Animation animAnticipateOvershoot = AnimationUtils.loadAnimation(context, R.anim.anticipate_overshoot_interpolator);
         viewHolder.itemView.setAnimation(animAnticipateOvershoot);
     }
-
 }
